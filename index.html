@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="hidden"></div>
+    <form class="form">
+        <label for="name">Имя:</label>
+        <div class="error_name">Введите имя!</div>
+        <input class="item" type="text" id="name" name="user_name">
+        <label for="email">E-mail:</label>
+        <div class="error_email">Введите коректный email!</div>
+        <input class="item" type="email" id="email" name="user_mail">
+        <label for="password">Пароль:</label>
+        <div class="error_password">Пароль: не менее 6 символов!</div>
+        <input class="item" type="password" id="password" name="user_password">
+        <button type="submit" class="submit" id="submit">ОТПРАВИТЬ</button>
+    </form>
+    <script src="/main.js"></script>
+</body>
+</html>
